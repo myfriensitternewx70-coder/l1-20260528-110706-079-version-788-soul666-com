@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>乌鸦之日 在线观看-高清剧集大全</title>
+  <meta name="description" content="一场瘟疫过后，所有成年人都丧失了说话能力，唯一能开口的男孩成了村庄的“神”与“囚徒”。">
+  <meta name="keywords" content="乌鸦之日,海外剧场,法国 / 加拿大,电影,末日寓言,父与子,鸟类,文艺,精选电视剧,热门电视剧大全,高清剧集在线播放">
+  <link rel="stylesheet" href="./assets/site.css">
+  <script src="./assets/search-index.js" defer></script>
+  <script src="./assets/app.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@1/dist/hls.min.js"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var video = document.getElementById('moviePlayer');
+    var overlay = document.querySelector('[data-play-button]');
+    var sourceUrl = "https://customer-7t103rn8rocxo5v6.cloudflarestream.com/60b4ddb3d166e1239abfc7adf611a6a3/manifest/video.m3u8";
+    var started = false;
+    var hlsInstance = null;
+
+    function loadAndPlay() {
+      if (!video) {
+        return;
+      }
+      if (overlay) {
+        overlay.classList.add('hidden');
+      }
+      if (started) {
+        video.play().catch(function () {});
+        return;
+      }
+      started = true;
+      if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = sourceUrl;
+        video.play().catch(function () {});
+      } else if (window.Hls && Hls.isSupported()) {
+        hlsInstance = new Hls();
+        hlsInstance.loadSource(sourceUrl);
+        hlsInstance.attachMedia(video);
+        hlsInstance.on(Hls.Events.MANIFEST_PARSED, function () {
+          video.play().catch(function () {});
+        });
+      } else {
+        video.src = sourceUrl;
+        video.play().catch(function () {});
+      }
+    }
+
+    if (overlay) {
+      overlay.addEventListener('click', loadAndPlay);
+    }
+    if (video) {
+      video.addEventListener('click', function () {
+        if (!started) {
+          loadAndPlay();
+        }
+      });
+      video.addEventListener('ended', function () {
+        if (hlsInstance) {
+          hlsInstance.destroy();
+          hlsInstance = null;
+          started = false;
+        }
+      });
+    }
+  });
+  </script>
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html" aria-label="高清剧集大全">
+        <span class="brand-mark">剧</span>
+        <span class="brand-text">高清剧集大全</span>
+      </a>
+      <nav class="site-nav" data-site-nav>
+        <a class="nav-link" href="./index.html">首页</a>
+        <a class="nav-link" href="./categories.html">分类</a>
+        <a class="nav-link" href="./ranking.html">排行榜</a>
+      </nav>
+      <div class="global-search">
+        <input class="global-search-input" type="search" placeholder="搜索片名、地区、类型" aria-label="搜索影片" data-global-search>
+        <div class="global-search-results" data-search-results></div>
+      </div>
+      <button class="menu-toggle" type="button" aria-label="展开导航" data-menu-toggle>☰</button>
+    </div>
+  </header>
+
+  <main class="container page-shell detail-shell">
+    <nav class="breadcrumb">
+      <a href="./index.html">首页</a>
+      <span>›</span>
+      <a href="./category-world-theater.html">海外剧场</a>
+      <span>›</span>
+      <span>乌鸦之日</span>
+    </nav>
+    <section class="detail-grid">
+      <article class="detail-main">
+        <div class="player-shell">
+          <video id="moviePlayer" controls playsinline preload="metadata" poster="./47.jpg"></video>
+          <button class="player-overlay" type="button" data-play-button aria-label="播放乌鸦之日">
+            <span>▶</span>
+          </button>
+        </div>
+        <div class="detail-card">
+          <h1>乌鸦之日 在线观看</h1>
+          <p class="lead-text">一场瘟疫过后，所有成年人都丧失了说话能力，唯一能开口的男孩成了村庄的“神”与“囚徒”。</p>
+          <div class="detail-meta">
+            <span>2023</span>
+            <span>法国 / 加拿大</span>
+            <span>电影</span>
+            <span>剧情 / 奇幻</span>
+          </div>
+          <div class="tag-row detail-tags"><span>末日寓言</span><span>父与子</span><span>鸟类</span><span>文艺</span></div>
+          <h2>剧情简介</h2>
+          <p>一种被称为“鸦鸣”的病毒席卷全球，感染者失去语言能力，仅能用乌鸦般的嘶叫交流。在法国阿尔卑斯山脚的一个村落，所有成人都失声了，但三岁的卢卡斯奇迹般保留了语言。十年后，十三岁的卢卡斯成了村民眼中的“神谕者”，被关在钟楼里，每天通过敲钟次数“解答”村民的诉求。他渴望下山，寻找据说在南方仍能正常说话的人类聚居地。一天，一只受过训练的乌鸦叼来了半张地图。卢卡斯决定逃跑，而他的父亲——曾是语言学教授，如今像野兽一样跟在队伍后面——成为了旅途中最沉默也最忠实的守护者。卢卡斯必须学会一种不需要语言的沟通，才能真正理解父亲的告别。</p>
+          <h2>精彩看点</h2>
+          <p>极其安静也极其震动的作品。对“语言”与“情感”关系的探讨达到了哲学高度。男孩与父亲最后一场无台词的对戏，表演张力超越了任何对白。</p>
+        </div>
+        <section class="detail-card">
+          <div class="section-heading simple-heading">
+            <div>
+              <h2>相关推荐</h2>
+              <p>继续发现相近题材与同类热门内容</p>
+            </div>
+          </div>
+          <div class="movie-grid related-grid">
+        <article class="movie-card compact" data-title="天蝎第一季" data-region="美国" data-year="2023" data-type="剧集">
+          <a class="poster-link" href="./movie-0437.html" aria-label="天蝎第一季">
+            <img src="./137.jpg" alt="天蝎第一季" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2023</span>
+              <span>美国</span>
+              <span>剧集</span>
+            </div>
+            <h3><a href="./movie-0437.html">天蝎第一季</a></h3>
+            <p>智商高达197的天蝎座天才被迫与FBI合作，却发现自己的每一个预测都在将队友推向死亡。</p>
+            <div class="tag-row"><span>高智商</span><span>反社会人格</span><span>连环案件</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="龙虎砵兰街" data-region="中国香港" data-year="1996" data-type="电影">
+          <a class="poster-link" href="./movie-0158.html" aria-label="龙虎砵兰街">
+            <img src="./8.jpg" alt="龙虎砵兰街" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>1996</span>
+              <span>中国香港</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0158.html">龙虎砵兰街</a></h3>
+            <p>两个在砵兰街讨生活的小混混，因救了一名失忆少女，得罪了整个毒品帝国。</p>
+            <div class="tag-row"><span>古惑仔</span><span>江湖义气</span><span>械斗</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="罗西与莫妮卡之骊靬情" data-region="中国大陆 / 意大利" data-year="2023" data-type="电影">
+          <a class="poster-link" href="./movie-0376.html" aria-label="罗西与莫妮卡之骊靬情">
+            <img src="./76.jpg" alt="罗西与莫妮卡之骊靬情" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2023</span>
+              <span>中国大陆 / 意大利</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0376.html">罗西与莫妮卡之骊靬情</a></h3>
+            <p>意大利女孩为寻找传说中失踪的古罗马军团后裔，在甘肃骊靬村遇到了一个木讷的守村人。</p>
+            <div class="tag-row"><span>丝绸之路</span><span>古罗马军团</span><span>骊靬村</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="歌台艳帜" data-region="香港" data-year="1991" data-type="电影">
+          <a class="poster-link" href="./movie-0229.html" aria-label="歌台艳帜">
+            <img src="./79.jpg" alt="歌台艳帜" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>1991</span>
+              <span>香港</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0229.html">歌台艳帜</a></h3>
+            <p>八十年代香港歌厅最后一夜，三个女人的歌声将揭开一桩尘封五年的命案。</p>
+            <div class="tag-row"><span>夜总会</span><span>歌女</span><span>黑帮</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="灰姑娘外传" data-region="英国" data-year="2025" data-type="电影">
+          <a class="poster-link" href="./movie-0497.html" aria-label="灰姑娘外传">
+            <img src="./47.jpg" alt="灰姑娘外传" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2025</span>
+              <span>英国</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0497.html">灰姑娘外传</a></h3>
+            <p>王子被杀，水晶鞋上全是血，灰姑娘成了头号嫌疑人。</p>
+            <div class="tag-row"><span>反童话</span><span>复仇</span><span>魔法</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="落跑人生" data-region="美国" data-year="2025" data-type="剧集">
+          <a class="poster-link" href="./movie-0301.html" aria-label="落跑人生">
+            <img src="./1.jpg" alt="落跑人生" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2025</span>
+              <span>美国</span>
+              <span>剧集</span>
+            </div>
+            <h3><a href="./movie-0301.html">落跑人生</a></h3>
+            <p>银行高管挪用公款败露后逃亡，却在路上遇到了比自己更惨的“同行”。</p>
+            <div class="tag-row"><span>逃亡</span><span>公路</span><span>自我救赎</span></div>
+          </div>
+        </article>
+
+          </div>
+        </section>
+      </article>
+      <aside class="detail-sidebar">
+        <div class="side-panel">
+          <h2>更多推荐</h2>
+          <a class="side-link" href="./movie-1095.html">
+            <img src="./45.jpg" alt="歪妹无敌追男记" loading="lazy">
+            <span>歪妹无敌追男记</span>
+          </a>
+          <a class="side-link" href="./movie-1347.html">
+            <img src="./147.jpg" alt="雨天的水彩画" loading="lazy">
+            <span>雨天的水彩画</span>
+          </a>
+          <a class="side-link" href="./movie-1599.html">
+            <img src="./99.jpg" alt="电击女孩" loading="lazy">
+            <span>电击女孩</span>
+          </a>
+          <a class="side-link" href="./movie-1851.html">
+            <img src="./51.jpg" alt="我要成为贫民巨星" loading="lazy">
+            <span>我要成为贫民巨星</span>
+          </a>
+          <a class="side-link" href="./movie-0066.html">
+            <img src="./66.jpg" alt="决战死亡线" loading="lazy">
+            <span>决战死亡线</span>
+          </a>
+          <a class="side-link" href="./movie-0318.html">
+            <img src="./18.jpg" alt="蜀山：新蜀山剑侠" loading="lazy">
+            <span>蜀山：新蜀山剑侠</span>
+          </a>
+
+        </div>
+      </aside>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <a class="footer-brand" href="./index.html">高清剧集大全</a>
+        <p>精选电视剧栏目汇集不同类型的优质剧集，包含热播、经典和高分内容，方便按分类查看。</p>
+      </div>
+      <div>
+        <h2>快捷入口</h2>
+        <a href="./categories.html">分类浏览</a>
+        <a href="./ranking.html">热门排行</a>
+      </div>
+      <div>
+        <h2>热门分类</h2>
+        <a href="./category-hot-drama.html">热播剧集</a>
+        <a href="./category-suspense-crime.html">悬疑犯罪</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

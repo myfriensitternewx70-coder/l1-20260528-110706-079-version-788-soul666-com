@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>一路顺风 在线观看-高清剧集大全</title>
+  <meta name="description" content="春运高峰，四个陌生人拼车回家，车上放着一个骨灰盒，而每个人都认为里面装的是自己的“重要物品”。">
+  <meta name="keywords" content="一路顺风,科幻奇想,中国大陆,电影,拼车返乡,乌龙骨灰盒,代哭服务,方言闹剧,精选电视剧,热门电视剧大全,高清剧集在线播放">
+  <link rel="stylesheet" href="./assets/site.css">
+  <script src="./assets/search-index.js" defer></script>
+  <script src="./assets/app.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@1/dist/hls.min.js"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var video = document.getElementById('moviePlayer');
+    var overlay = document.querySelector('[data-play-button]');
+    var sourceUrl = "https://customer-7t103rn8rocxo5v6.cloudflarestream.com/d0af4221b8947fda8c23f4955947cb58/manifest/video.m3u8";
+    var started = false;
+    var hlsInstance = null;
+
+    function loadAndPlay() {
+      if (!video) {
+        return;
+      }
+      if (overlay) {
+        overlay.classList.add('hidden');
+      }
+      if (started) {
+        video.play().catch(function () {});
+        return;
+      }
+      started = true;
+      if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = sourceUrl;
+        video.play().catch(function () {});
+      } else if (window.Hls && Hls.isSupported()) {
+        hlsInstance = new Hls();
+        hlsInstance.loadSource(sourceUrl);
+        hlsInstance.attachMedia(video);
+        hlsInstance.on(Hls.Events.MANIFEST_PARSED, function () {
+          video.play().catch(function () {});
+        });
+      } else {
+        video.src = sourceUrl;
+        video.play().catch(function () {});
+      }
+    }
+
+    if (overlay) {
+      overlay.addEventListener('click', loadAndPlay);
+    }
+    if (video) {
+      video.addEventListener('click', function () {
+        if (!started) {
+          loadAndPlay();
+        }
+      });
+      video.addEventListener('ended', function () {
+        if (hlsInstance) {
+          hlsInstance.destroy();
+          hlsInstance = null;
+          started = false;
+        }
+      });
+    }
+  });
+  </script>
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html" aria-label="高清剧集大全">
+        <span class="brand-mark">剧</span>
+        <span class="brand-text">高清剧集大全</span>
+      </a>
+      <nav class="site-nav" data-site-nav>
+        <a class="nav-link" href="./index.html">首页</a>
+        <a class="nav-link" href="./categories.html">分类</a>
+        <a class="nav-link" href="./ranking.html">排行榜</a>
+      </nav>
+      <div class="global-search">
+        <input class="global-search-input" type="search" placeholder="搜索片名、地区、类型" aria-label="搜索影片" data-global-search>
+        <div class="global-search-results" data-search-results></div>
+      </div>
+      <button class="menu-toggle" type="button" aria-label="展开导航" data-menu-toggle>☰</button>
+    </div>
+  </header>
+
+  <main class="container page-shell detail-shell">
+    <nav class="breadcrumb">
+      <a href="./index.html">首页</a>
+      <span>›</span>
+      <a href="./category-science-fiction.html">科幻奇想</a>
+      <span>›</span>
+      <span>一路顺风</span>
+    </nav>
+    <section class="detail-grid">
+      <article class="detail-main">
+        <div class="player-shell">
+          <video id="moviePlayer" controls playsinline preload="metadata" poster="./36.jpg"></video>
+          <button class="player-overlay" type="button" data-play-button aria-label="播放一路顺风">
+            <span>▶</span>
+          </button>
+        </div>
+        <div class="detail-card">
+          <h1>一路顺风 在线观看</h1>
+          <p class="lead-text">春运高峰，四个陌生人拼车回家，车上放着一个骨灰盒，而每个人都认为里面装的是自己的“重要物品”。</p>
+          <div class="detail-meta">
+            <span>2018</span>
+            <span>中国大陆</span>
+            <span>电影</span>
+            <span>公路 / 喜剧</span>
+          </div>
+          <div class="tag-row detail-tags"><span>拼车返乡</span><span>乌龙骨灰盒</span><span>代哭服务</span><span>方言闹剧</span></div>
+          <h2>剧情简介</h2>
+          <p>腊月二十九，北京到重庆的高速上，一辆破面包车载着四个人：农民工老赵（带“父亲骨灰”返乡入土）、宠物殡葬师小美（带“明星客户的猫骨灰”去重庆超度）、欠债跑路的包工头大彭（把“现金”藏在骨灰盒夹层），以及一个自称“代哭师”的哑巴青年阿甘（骨灰盒里其实是客户定制的“烟花骨灰”，要在老家天空炸开）。雪越下越大，车抛锚在服务区，四人被迫打开骨灰盒取暖（借口是“让老人先暖暖”），结果发现四个盒子里混装了三份骨灰、一叠现金和一堆烟花粉。更糟的是，服务区广播突然响起：“哪位乘客拿错了骨灰盒，请速到广播室，您的父亲已经等了您三小时。”四个人面面相觑，最后决定：不管是谁的爹，先集体哭一场再说。结尾，他们用烟花粉+现金+骨灰混合点燃，在高速上绽放出一朵巨大的金色菊花，交警开道护送他们回家。老赵最后才知道，那个“父亲骨灰”其实是他工友的。</p>
+          <h2>精彩看点</h2>
+          <p>把最沉重的话题玩出最轻盈的笑泪。方言梗密集不低俗，闹剧外壳下是对“家”的朴素渴望。骨灰盒的多义性设计堪称神来之笔。</p>
+        </div>
+        <section class="detail-card">
+          <div class="section-heading simple-heading">
+            <div>
+              <h2>相关推荐</h2>
+              <p>继续发现相近题材与同类热门内容</p>
+            </div>
+          </div>
+          <div class="movie-grid related-grid">
+        <article class="movie-card compact" data-title="旅行社的故事" data-region="中国大陆" data-year="2024" data-type="剧集">
+          <a class="poster-link" href="./movie-0147.html" aria-label="旅行社的故事">
+            <img src="./147.jpg" alt="旅行社的故事" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2024</span>
+              <span>中国大陆</span>
+              <span>剧集</span>
+            </div>
+            <h3><a href="./movie-0147.html">旅行社的故事</a></h3>
+            <p>五个性情迥异的失业青年盘下一家濒临倒闭的旅行社，专接没人敢接的奇葩订单。</p>
+            <div class="tag-row"><span>创业</span><span>职场</span><span>群像</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="三八佳人粤语" data-region="香港" data-year="1992" data-type="电视剧">
+          <a class="poster-link" href="./movie-0258.html" aria-label="三八佳人粤语">
+            <img src="./108.jpg" alt="三八佳人粤语" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>1992</span>
+              <span>香港</span>
+              <span>电视剧</span>
+            </div>
+            <h3><a href="./movie-0258.html">三八佳人粤语</a></h3>
+            <p>三位性格迥异、年过三十的香港女性，在职场上与渣男斗智，在生活中互相取暖。</p>
+            <div class="tag-row"><span>女性</span><span>职场</span><span>友谊</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="别惹佐汉" data-region="美国" data-year="2024" data-type="电影">
+          <a class="poster-link" href="./movie-0369.html" aria-label="别惹佐汉">
+            <img src="./69.jpg" alt="别惹佐汉" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2024</span>
+              <span>美国</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0369.html">别惹佐汉</a></h3>
+            <p>以色列最强特工假死脱身后跑去纽约当美发师，用剪刀和泡沫打败恐怖分子。</p>
+            <div class="tag-row"><span>特工</span><span>理发师</span><span>恶搞</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="美国豚鼠2：血腥冲击" data-region="美国" data-year="2015" data-type="电影">
+          <a class="poster-link" href="./movie-0470.html" aria-label="美国豚鼠2：血腥冲击">
+            <img src="./20.jpg" alt="美国豚鼠2：血腥冲击" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2015</span>
+              <span>美国</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0470.html">美国豚鼠2：血腥冲击</a></h3>
+            <p>一个地下视频小组潜入神秘庄园，亲历了一场将人体与工业机械粗暴结合的狂欢地狱。</p>
+            <div class="tag-row"><span>邪典</span><span>伪纪录</span><span>血腥</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="我十岁，离过婚" data-region="印度" data-year="2024" data-type="电影">
+          <a class="poster-link" href="./movie-0581.html" aria-label="我十岁，离过婚">
+            <img src="./131.jpg" alt="我十岁，离过婚" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2024</span>
+              <span>印度</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0581.html">我十岁，离过婚</a></h3>
+            <p>一个十岁女孩在被卖给四十岁男人做妻子后，偷偷跑到法庭，自己填了离婚申请。</p>
+            <div class="tag-row"><span>童婚</span><span>女性觉醒</span><span>真实事件改编</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="顽童怪盗" data-region="中国香港" data-year="2024" data-type="电影">
+          <a class="poster-link" href="./movie-0892.html" aria-label="顽童怪盗">
+            <img src="./142.jpg" alt="顽童怪盗" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2024</span>
+              <span>中国香港</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0892.html">顽童怪盗</a></h3>
+            <p>七个被社会抛弃的“问题儿童”，组成史上最年轻的怪盗团，目标是偷走一个黑心富豪的“良心”。</p>
+            <div class="tag-row"><span>儿童</span><span>神偷</span><span>恶作剧</span></div>
+          </div>
+        </article>
+
+          </div>
+        </section>
+      </article>
+      <aside class="detail-sidebar">
+        <div class="side-panel">
+          <h2>更多推荐</h2>
+          <a class="side-link" href="./movie-1428.html">
+            <img src="./78.jpg" alt="我的极品老妈" loading="lazy">
+            <span>我的极品老妈</span>
+          </a>
+          <a class="side-link" href="./movie-1680.html">
+            <img src="./30.jpg" alt="罪不可赦" loading="lazy">
+            <span>罪不可赦</span>
+          </a>
+          <a class="side-link" href="./movie-1932.html">
+            <img src="./132.jpg" alt="为此为止" loading="lazy">
+            <span>为此为止</span>
+          </a>
+          <a class="side-link" href="./movie-0147.html">
+            <img src="./147.jpg" alt="旅行社的故事" loading="lazy">
+            <span>旅行社的故事</span>
+          </a>
+          <a class="side-link" href="./movie-0399.html">
+            <img src="./99.jpg" alt="强大的首领" loading="lazy">
+            <span>强大的首领</span>
+          </a>
+          <a class="side-link" href="./movie-0651.html">
+            <img src="./51.jpg" alt="拐个洋妞做媳妇" loading="lazy">
+            <span>拐个洋妞做媳妇</span>
+          </a>
+
+        </div>
+      </aside>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <a class="footer-brand" href="./index.html">高清剧集大全</a>
+        <p>精选电视剧栏目汇集不同类型的优质剧集，包含热播、经典和高分内容，方便按分类查看。</p>
+      </div>
+      <div>
+        <h2>快捷入口</h2>
+        <a href="./categories.html">分类浏览</a>
+        <a href="./ranking.html">热门排行</a>
+      </div>
+      <div>
+        <h2>热门分类</h2>
+        <a href="./category-hot-drama.html">热播剧集</a>
+        <a href="./category-suspense-crime.html">悬疑犯罪</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

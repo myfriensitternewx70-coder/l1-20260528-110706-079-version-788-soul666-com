@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>过去与现在 在线观看-高清剧集大全</title>
+  <meta name="description" content="失意中年男意外接通20年前的电话，他决定杀死过去的自己来换取成功。">
+  <meta name="keywords" content="过去与现在,热播剧集,法国,电影,穿越时空,中年危机,自我救赎,精选电视剧,热门电视剧大全,高清剧集在线播放">
+  <link rel="stylesheet" href="./assets/site.css">
+  <script src="./assets/search-index.js" defer></script>
+  <script src="./assets/app.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@1/dist/hls.min.js"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var video = document.getElementById('moviePlayer');
+    var overlay = document.querySelector('[data-play-button]');
+    var sourceUrl = "https://customer-7t103rn8rocxo5v6.cloudflarestream.com/c99d86ece73a935b77e57d322461ddb5/manifest/video.m3u8";
+    var started = false;
+    var hlsInstance = null;
+
+    function loadAndPlay() {
+      if (!video) {
+        return;
+      }
+      if (overlay) {
+        overlay.classList.add('hidden');
+      }
+      if (started) {
+        video.play().catch(function () {});
+        return;
+      }
+      started = true;
+      if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = sourceUrl;
+        video.play().catch(function () {});
+      } else if (window.Hls && Hls.isSupported()) {
+        hlsInstance = new Hls();
+        hlsInstance.loadSource(sourceUrl);
+        hlsInstance.attachMedia(video);
+        hlsInstance.on(Hls.Events.MANIFEST_PARSED, function () {
+          video.play().catch(function () {});
+        });
+      } else {
+        video.src = sourceUrl;
+        video.play().catch(function () {});
+      }
+    }
+
+    if (overlay) {
+      overlay.addEventListener('click', loadAndPlay);
+    }
+    if (video) {
+      video.addEventListener('click', function () {
+        if (!started) {
+          loadAndPlay();
+        }
+      });
+      video.addEventListener('ended', function () {
+        if (hlsInstance) {
+          hlsInstance.destroy();
+          hlsInstance = null;
+          started = false;
+        }
+      });
+    }
+  });
+  </script>
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html" aria-label="高清剧集大全">
+        <span class="brand-mark">剧</span>
+        <span class="brand-text">高清剧集大全</span>
+      </a>
+      <nav class="site-nav" data-site-nav>
+        <a class="nav-link" href="./index.html">首页</a>
+        <a class="nav-link" href="./categories.html">分类</a>
+        <a class="nav-link" href="./ranking.html">排行榜</a>
+      </nav>
+      <div class="global-search">
+        <input class="global-search-input" type="search" placeholder="搜索片名、地区、类型" aria-label="搜索影片" data-global-search>
+        <div class="global-search-results" data-search-results></div>
+      </div>
+      <button class="menu-toggle" type="button" aria-label="展开导航" data-menu-toggle>☰</button>
+    </div>
+  </header>
+
+  <main class="container page-shell detail-shell">
+    <nav class="breadcrumb">
+      <a href="./index.html">首页</a>
+      <span>›</span>
+      <a href="./category-hot-drama.html">热播剧集</a>
+      <span>›</span>
+      <span>过去与现在</span>
+    </nav>
+    <section class="detail-grid">
+      <article class="detail-main">
+        <div class="player-shell">
+          <video id="moviePlayer" controls playsinline preload="metadata" poster="./130.jpg"></video>
+          <button class="player-overlay" type="button" data-play-button aria-label="播放过去与现在">
+            <span>▶</span>
+          </button>
+        </div>
+        <div class="detail-card">
+          <h1>过去与现在 在线观看</h1>
+          <p class="lead-text">失意中年男意外接通20年前的电话，他决定杀死过去的自己来换取成功。</p>
+          <div class="detail-meta">
+            <span>2021</span>
+            <span>法国</span>
+            <span>电影</span>
+            <span>剧情 / 奇幻</span>
+          </div>
+          <div class="tag-row detail-tags"><span>穿越时空</span><span>中年危机</span><span>自我救赎</span></div>
+          <h2>剧情简介</h2>
+          <p>45岁的建筑师马蒂厄事业破产、妻子出轨。绝望之际，一部老式座机让他能与20年前的自己通话。他发现可以通过改变过去的选择来重塑现在，但每一次修正都会引发新的灾难。为了彻底摆脱那个懦弱的青年，他设局诱骗年轻的自己来到废弃工厂，准备实施一场完美的“自杀式谋杀”。然而当枪口对准那张年轻的脸时，他看到了自己眼中的恐惧。</p>
+          <h2>精彩看点</h2>
+          <p>设定不算新鲜，但对人性阴暗面的挖掘极深。导演用冷峻的色调区分两个时空，结局的开放式处理让人倒吸一口凉气。</p>
+        </div>
+        <section class="detail-card">
+          <div class="section-heading simple-heading">
+            <div>
+              <h2>相关推荐</h2>
+              <p>继续发现相近题材与同类热门内容</p>
+            </div>
+          </div>
+          <div class="movie-grid related-grid">
+        <article class="movie-card compact" data-title="三角突击队2" data-region="美国" data-year="2026" data-type="电影">
+          <a class="poster-link" href="./movie-0315.html" aria-label="三角突击队2">
+            <img src="./15.jpg" alt="三角突击队2" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2026</span>
+              <span>美国</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0315.html">三角突击队2</a></h3>
+            <p>一支三角洲小队深入也门山区营救人质，却发现整个山谷被AI操控的无人机群封锁。</p>
+            <div class="tag-row"><span>三角洲部队</span><span>无人机战争</span><span>沙漠营救</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="我的古怪家庭" data-region="中国" data-year="2024" data-type="剧集">
+          <a class="poster-link" href="./movie-0478.html" aria-label="我的古怪家庭">
+            <img src="./28.jpg" alt="我的古怪家庭" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2024</span>
+              <span>中国</span>
+              <span>剧集</span>
+            </div>
+            <h3><a href="./movie-0478.html">我的古怪家庭</a></h3>
+            <p>这家人每天早餐时会随机交换身体，为了不被当成精神病，他们必须演好“自己”。</p>
+            <div class="tag-row"><span>轻喜剧</span><span>治愈</span><span>超能力</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="各怀鬼胎" data-region="中国香港" data-year="2025" data-type="电影">
+          <a class="poster-link" href="./movie-0502.html" aria-label="各怀鬼胎">
+            <img src="./52.jpg" alt="各怀鬼胎" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2025</span>
+              <span>中国香港</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0502.html">各怀鬼胎</a></h3>
+            <p>五个合作完成惊天劫案的悍匪，在分赃仓库里被困一夜，每个人都想独吞两亿。</p>
+            <div class="tag-row"><span>密室</span><span>全员恶人</span><span>黑吃黑</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="群英夺宝" data-region="中国大陆" data-year="2026" data-type="电影">
+          <a class="poster-link" href="./movie-0623.html" aria-label="群英夺宝">
+            <img src="./23.jpg" alt="群英夺宝" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2026</span>
+              <span>中国大陆</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0623.html">群英夺宝</a></h3>
+            <p>1924年，冯玉祥逼宫故宫，一块传国玉玺意外落入天桥卖艺的父女手中，军阀、太监、洋人都疯了。</p>
+            <div class="tag-row"><span>夺宝</span><span>传国玉玺</span><span>民国</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="情歌春恋" data-region="中国台湾" data-year="1968" data-type="电影">
+          <a class="poster-link" href="./movie-0841.html" aria-label="情歌春恋">
+            <img src="./91.jpg" alt="情歌春恋" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>1968</span>
+              <span>中国台湾</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0841.html">情歌春恋</a></h3>
+            <p>六十年代的台北，一位富家千金为了追求音乐梦想，不惜离家出走，与穷小子在歌厅相遇。</p>
+            <div class="tag-row"><span>复古</span><span>琼瑶式</span><span>经典老歌</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="尖鼠杀手" data-region="美国" data-year="2005" data-type="电影">
+          <a class="poster-link" href="./movie-0977.html" aria-label="尖鼠杀手">
+            <img src="./77.jpg" alt="尖鼠杀手" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2005</span>
+              <span>美国</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0977.html">尖鼠杀手</a></h3>
+            <p>一次实验事故造出一群智力超群、嗜血成性的变异尖鼠，它们要用整个小镇的人来报复人类。</p>
+            <div class="tag-row"><span>变异生物</span><span>鼠群</span><span>实验室泄漏</span></div>
+          </div>
+        </article>
+
+          </div>
+        </section>
+      </article>
+      <aside class="detail-sidebar">
+        <div class="side-panel">
+          <h2>更多推荐</h2>
+          <a class="side-link" href="./movie-0899.html">
+            <img src="./149.jpg" alt="徐兆华" loading="lazy">
+            <span>徐兆华</span>
+          </a>
+          <a class="side-link" href="./movie-1151.html">
+            <img src="./101.jpg" alt="附身" loading="lazy">
+            <span>附身</span>
+          </a>
+          <a class="side-link" href="./movie-1403.html">
+            <img src="./53.jpg" alt="爱的幸宠" loading="lazy">
+            <span>爱的幸宠</span>
+          </a>
+          <a class="side-link" href="./movie-1655.html">
+            <img src="./5.jpg" alt="冰冻浩劫" loading="lazy">
+            <span>冰冻浩劫</span>
+          </a>
+          <a class="side-link" href="./movie-1907.html">
+            <img src="./107.jpg" alt="诡影直播间" loading="lazy">
+            <span>诡影直播间</span>
+          </a>
+          <a class="side-link" href="./movie-0122.html">
+            <img src="./122.jpg" alt="善有善报" loading="lazy">
+            <span>善有善报</span>
+          </a>
+
+        </div>
+      </aside>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <a class="footer-brand" href="./index.html">高清剧集大全</a>
+        <p>精选电视剧栏目汇集不同类型的优质剧集，包含热播、经典和高分内容，方便按分类查看。</p>
+      </div>
+      <div>
+        <h2>快捷入口</h2>
+        <a href="./categories.html">分类浏览</a>
+        <a href="./ranking.html">热门排行</a>
+      </div>
+      <div>
+        <h2>热门分类</h2>
+        <a href="./category-hot-drama.html">热播剧集</a>
+        <a href="./category-suspense-crime.html">悬疑犯罪</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

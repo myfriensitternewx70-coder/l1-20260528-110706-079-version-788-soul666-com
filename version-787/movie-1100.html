@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>梦游乐园 在线观看-高清剧集大全</title>
+  <meta name="description" content="一家废弃游乐园成为“梦游者”集会点，他们每晚共享梦境，直到某人的噩梦开始杀死现实中的人。">
+  <meta name="keywords" content="梦游乐园,古装传奇,韩国,电影,潜意识共享,噩梦实体化,游乐园,精选电视剧,热门电视剧大全,高清剧集在线播放">
+  <link rel="stylesheet" href="./assets/site.css">
+  <script src="./assets/search-index.js" defer></script>
+  <script src="./assets/app.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@1/dist/hls.min.js"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var video = document.getElementById('moviePlayer');
+    var overlay = document.querySelector('[data-play-button]');
+    var sourceUrl = "https://customer-7t103rn8rocxo5v6.cloudflarestream.com/86ea18f9954dbaf22eff5e16c41b4a25/manifest/video.m3u8";
+    var started = false;
+    var hlsInstance = null;
+
+    function loadAndPlay() {
+      if (!video) {
+        return;
+      }
+      if (overlay) {
+        overlay.classList.add('hidden');
+      }
+      if (started) {
+        video.play().catch(function () {});
+        return;
+      }
+      started = true;
+      if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = sourceUrl;
+        video.play().catch(function () {});
+      } else if (window.Hls && Hls.isSupported()) {
+        hlsInstance = new Hls();
+        hlsInstance.loadSource(sourceUrl);
+        hlsInstance.attachMedia(video);
+        hlsInstance.on(Hls.Events.MANIFEST_PARSED, function () {
+          video.play().catch(function () {});
+        });
+      } else {
+        video.src = sourceUrl;
+        video.play().catch(function () {});
+      }
+    }
+
+    if (overlay) {
+      overlay.addEventListener('click', loadAndPlay);
+    }
+    if (video) {
+      video.addEventListener('click', function () {
+        if (!started) {
+          loadAndPlay();
+        }
+      });
+      video.addEventListener('ended', function () {
+        if (hlsInstance) {
+          hlsInstance.destroy();
+          hlsInstance = null;
+          started = false;
+        }
+      });
+    }
+  });
+  </script>
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html" aria-label="高清剧集大全">
+        <span class="brand-mark">剧</span>
+        <span class="brand-text">高清剧集大全</span>
+      </a>
+      <nav class="site-nav" data-site-nav>
+        <a class="nav-link" href="./index.html">首页</a>
+        <a class="nav-link" href="./categories.html">分类</a>
+        <a class="nav-link" href="./ranking.html">排行榜</a>
+      </nav>
+      <div class="global-search">
+        <input class="global-search-input" type="search" placeholder="搜索片名、地区、类型" aria-label="搜索影片" data-global-search>
+        <div class="global-search-results" data-search-results></div>
+      </div>
+      <button class="menu-toggle" type="button" aria-label="展开导航" data-menu-toggle>☰</button>
+    </div>
+  </header>
+
+  <main class="container page-shell detail-shell">
+    <nav class="breadcrumb">
+      <a href="./index.html">首页</a>
+      <span>›</span>
+      <a href="./category-costume-legend.html">古装传奇</a>
+      <span>›</span>
+      <span>梦游乐园</span>
+    </nav>
+    <section class="detail-grid">
+      <article class="detail-main">
+        <div class="player-shell">
+          <video id="moviePlayer" controls playsinline preload="metadata" poster="./50.jpg"></video>
+          <button class="player-overlay" type="button" data-play-button aria-label="播放梦游乐园">
+            <span>▶</span>
+          </button>
+        </div>
+        <div class="detail-card">
+          <h1>梦游乐园 在线观看</h1>
+          <p class="lead-text">一家废弃游乐园成为“梦游者”集会点，他们每晚共享梦境，直到某人的噩梦开始杀死现实中的人。</p>
+          <div class="detail-meta">
+            <span>2025</span>
+            <span>韩国</span>
+            <span>电影</span>
+            <span>奇幻 / 悬疑 / 剧情</span>
+          </div>
+          <div class="tag-row detail-tags"><span>潜意识共享</span><span>噩梦实体化</span><span>游乐园</span></div>
+          <h2>剧情简介</h2>
+          <p>全球有0.01%的人患有“清醒梦游症”，他们能在入睡后灵魂出窍，进入一个由集体潜意识构成的“梦游乐园”。女主秀雅是新手，她发现乐园里的旋转木马每转一圈，就会有一个玩家的名字从“活着”栏位移到“死亡”栏位。原来一个代号“小丑”的玩家，他的噩梦是一只液态金属怪物，能在梦境中杀死玩家，而玩家现实中会脑死亡。秀雅联合曾是精神病医生的玩家大叔、一名只会在梦里说话的小女孩，三人试图破解小丑的身份。真相是：小丑是十年前在乐园事故中失去女儿的父亲，他每晚都重复女儿坠亡的噩梦，而怪物就是他的自责。秀雅选择走进他的噩梦，接住那个永远坠落的女孩。</p>
+          <h2>精彩看点</h2>
+          <p>概念创意爆棚，视觉奇观堪比《盗梦空间》+《旺达幻视》。情感内核极强，最后女主拥抱怪物那幕能让人哭崩。节奏稍慢，但氛围营造顶级。</p>
+        </div>
+        <section class="detail-card">
+          <div class="section-heading simple-heading">
+            <div>
+              <h2>相关推荐</h2>
+              <p>继续发现相近题材与同类热门内容</p>
+            </div>
+          </div>
+          <div class="movie-grid related-grid">
+        <article class="movie-card compact" data-title="万事胜意" data-region="中国大陆" data-year="2019" data-type="电影">
+          <a class="poster-link" href="./movie-0221.html" aria-label="万事胜意">
+            <img src="./71.jpg" alt="万事胜意" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2019</span>
+              <span>中国大陆</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0221.html">万事胜意</a></h3>
+            <p>高三那年春节，全家逼她考上985，她却只想当个炸油条的小贩，年夜饭上摔了碗。</p>
+            <div class="tag-row"><span>高考</span><span>春节</span><span>和解</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="遥远" data-region="俄罗斯" data-year="2023" data-type="电影">
+          <a class="poster-link" href="./movie-0134.html" aria-label="遥远">
+            <img src="./134.jpg" alt="遥远" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2023</span>
+              <span>俄罗斯</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0134.html">遥远</a></h3>
+            <p>一名在深空探测船上冬眠失误而独自苏醒的宇航员，发现飞船正朝着宇宙深处一个未知的“绝对寂静区”飞去。</p>
+            <div class="tag-row"><span>太空</span><span>孤独</span><span>哲学</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="善心满载仁爱堂2023" data-region="中国香港" data-year="2023" data-type="综艺 / 真人秀">
+          <a class="poster-link" href="./movie-0463.html" aria-label="善心满载仁爱堂2023">
+            <img src="./13.jpg" alt="善心满载仁爱堂2023" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2023</span>
+              <span>中国香港</span>
+              <span>综艺 / 真人秀</span>
+            </div>
+            <h3><a href="./movie-0463.html">善心满载仁爱堂2023</a></h3>
+            <p>香港群星深入基层，挑战极限职业，只为给仁爱堂筹集善款，过程笑料与泪水齐飞。</p>
+            <div class="tag-row"><span>慈善</span><span>TVB</span><span>筹款</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="启示录叛乱" data-region="美国" data-year="2026" data-type="电影">
+          <a class="poster-link" href="./movie-0307.html" aria-label="启示录叛乱">
+            <img src="./7.jpg" alt="启示录叛乱" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2026</span>
+              <span>美国</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0307.html">启示录叛乱</a></h3>
+            <p>当超级AI“天启”判定人类为地球之癌，幸存者们在废土上发起最后的叛乱，却发现敌人曾是自己最亲密的人。</p>
+            <div class="tag-row"><span>AI叛乱</span><span>末世</span><span>机械军团</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="芒果男友罗曼史" data-region="泰国" data-year="2026" data-type="网剧">
+          <a class="poster-link" href="./movie-0082.html" aria-label="芒果男友罗曼史">
+            <img src="./82.jpg" alt="芒果男友罗曼史" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2026</span>
+              <span>泰国</span>
+              <span>网剧</span>
+            </div>
+            <h3><a href="./movie-0082.html">芒果男友罗曼史</a></h3>
+            <p>一个沉迷追星的宅女，咬了一口芒果后，穿越到了偶像的海报里，成了他的“契约女友”。</p>
+            <div class="tag-row"><span>泰式小清新</span><span>偶像</span><span>穿越</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="哈瓦，玛里亚姆，阿伊莎" data-region="法国 / 卡塔尔" data-year="2021" data-type="电影">
+          <a class="poster-link" href="./movie-0492.html" aria-label="哈瓦，玛里亚姆，阿伊莎">
+            <img src="./42.jpg" alt="哈瓦，玛里亚姆，阿伊莎" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2021</span>
+              <span>法国 / 卡塔尔</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0492.html">哈瓦，玛里亚姆，阿伊莎</a></h3>
+            <p>非洲小镇的三代女性，在面对传统习俗与现代文明的冲击时，各自做出了惊人的选择。</p>
+            <div class="tag-row"><span>非洲</span><span>女性命运</span><span>跨代际</span></div>
+          </div>
+        </article>
+
+          </div>
+        </section>
+      </article>
+      <aside class="detail-sidebar">
+        <div class="side-panel">
+          <h2>更多推荐</h2>
+          <a class="side-link" href="./movie-1409.html">
+            <img src="./59.jpg" alt="我爱麻烦" loading="lazy">
+            <span>我爱麻烦</span>
+          </a>
+          <a class="side-link" href="./movie-1661.html">
+            <img src="./11.jpg" alt="寻找绝配情人" loading="lazy">
+            <span>寻找绝配情人</span>
+          </a>
+          <a class="side-link" href="./movie-1913.html">
+            <img src="./113.jpg" alt="解冰" loading="lazy">
+            <span>解冰</span>
+          </a>
+          <a class="side-link" href="./movie-0128.html">
+            <img src="./128.jpg" alt="跟哥哥走玛雅：九把钥匙" loading="lazy">
+            <span>跟哥哥走玛雅：九把钥匙</span>
+          </a>
+          <a class="side-link" href="./movie-0380.html">
+            <img src="./80.jpg" alt="厨子·戏子·痞子" loading="lazy">
+            <span>厨子·戏子·痞子</span>
+          </a>
+          <a class="side-link" href="./movie-0632.html">
+            <img src="./32.jpg" alt="高飞大电影国语" loading="lazy">
+            <span>高飞大电影国语</span>
+          </a>
+
+        </div>
+      </aside>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <a class="footer-brand" href="./index.html">高清剧集大全</a>
+        <p>精选电视剧栏目汇集不同类型的优质剧集，包含热播、经典和高分内容，方便按分类查看。</p>
+      </div>
+      <div>
+        <h2>快捷入口</h2>
+        <a href="./categories.html">分类浏览</a>
+        <a href="./ranking.html">热门排行</a>
+      </div>
+      <div>
+        <h2>热门分类</h2>
+        <a href="./category-hot-drama.html">热播剧集</a>
+        <a href="./category-suspense-crime.html">悬疑犯罪</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

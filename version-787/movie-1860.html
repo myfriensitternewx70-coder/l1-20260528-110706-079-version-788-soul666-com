@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>纯真消逝的年代 在线观看-高清剧集大全</title>
+  <meta name="description" content="1945年，德国小镇上一群孩子在纳粹意识形态崩塌前后，经历了从狂信到幻灭的残酷成人礼。">
+  <meta name="keywords" content="纯真消逝的年代,动作冒险,德国,电影,二战,童年,创伤,精选电视剧,热门电视剧大全,高清剧集在线播放">
+  <link rel="stylesheet" href="./assets/site.css">
+  <script src="./assets/search-index.js" defer></script>
+  <script src="./assets/app.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@1/dist/hls.min.js"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var video = document.getElementById('moviePlayer');
+    var overlay = document.querySelector('[data-play-button]');
+    var sourceUrl = "https://customer-7t103rn8rocxo5v6.cloudflarestream.com/af3d3f3b4940cee04efcd8ff2c9eef0a/manifest/video.m3u8";
+    var started = false;
+    var hlsInstance = null;
+
+    function loadAndPlay() {
+      if (!video) {
+        return;
+      }
+      if (overlay) {
+        overlay.classList.add('hidden');
+      }
+      if (started) {
+        video.play().catch(function () {});
+        return;
+      }
+      started = true;
+      if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = sourceUrl;
+        video.play().catch(function () {});
+      } else if (window.Hls && Hls.isSupported()) {
+        hlsInstance = new Hls();
+        hlsInstance.loadSource(sourceUrl);
+        hlsInstance.attachMedia(video);
+        hlsInstance.on(Hls.Events.MANIFEST_PARSED, function () {
+          video.play().catch(function () {});
+        });
+      } else {
+        video.src = sourceUrl;
+        video.play().catch(function () {});
+      }
+    }
+
+    if (overlay) {
+      overlay.addEventListener('click', loadAndPlay);
+    }
+    if (video) {
+      video.addEventListener('click', function () {
+        if (!started) {
+          loadAndPlay();
+        }
+      });
+      video.addEventListener('ended', function () {
+        if (hlsInstance) {
+          hlsInstance.destroy();
+          hlsInstance = null;
+          started = false;
+        }
+      });
+    }
+  });
+  </script>
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html" aria-label="高清剧集大全">
+        <span class="brand-mark">剧</span>
+        <span class="brand-text">高清剧集大全</span>
+      </a>
+      <nav class="site-nav" data-site-nav>
+        <a class="nav-link" href="./index.html">首页</a>
+        <a class="nav-link" href="./categories.html">分类</a>
+        <a class="nav-link" href="./ranking.html">排行榜</a>
+      </nav>
+      <div class="global-search">
+        <input class="global-search-input" type="search" placeholder="搜索片名、地区、类型" aria-label="搜索影片" data-global-search>
+        <div class="global-search-results" data-search-results></div>
+      </div>
+      <button class="menu-toggle" type="button" aria-label="展开导航" data-menu-toggle>☰</button>
+    </div>
+  </header>
+
+  <main class="container page-shell detail-shell">
+    <nav class="breadcrumb">
+      <a href="./index.html">首页</a>
+      <span>›</span>
+      <a href="./category-action-adventure.html">动作冒险</a>
+      <span>›</span>
+      <span>纯真消逝的年代</span>
+    </nav>
+    <section class="detail-grid">
+      <article class="detail-main">
+        <div class="player-shell">
+          <video id="moviePlayer" controls playsinline preload="metadata" poster="./60.jpg"></video>
+          <button class="player-overlay" type="button" data-play-button aria-label="播放纯真消逝的年代">
+            <span>▶</span>
+          </button>
+        </div>
+        <div class="detail-card">
+          <h1>纯真消逝的年代 在线观看</h1>
+          <p class="lead-text">1945年，德国小镇上一群孩子在纳粹意识形态崩塌前后，经历了从狂信到幻灭的残酷成人礼。</p>
+          <div class="detail-meta">
+            <span>2024</span>
+            <span>德国</span>
+            <span>电影</span>
+            <span>剧情 / 历史 / 青春</span>
+          </div>
+          <div class="tag-row detail-tags"><span>二战</span><span>童年</span><span>创伤</span></div>
+          <h2>剧情简介</h2>
+          <p>故事聚焦于1945年春天，德国巴伐利亚一个小镇上的少年合唱团。13岁的团长弗里茨是希特勒青年团的模范，他深信战争即将胜利。然而随着美军逼近，镇长逃跑，老师们失踪，世界在他们眼前分崩离析。弗里茨不得不带着团里的孩子们在废墟中寻找食物和庇护，并直面那些曾经被他们视为英雄的长辈所犯下的罪行。影片通过孩子的视角，冷静而残酷地记录了一个国家意识形态神话彻底破产后，一代人纯真如何被战争吞噬。</p>
+          <h2>精彩看点</h2>
+          <p>导演采用近乎记录片的冷峻手法，用黑白影像呈现了那段混沌岁月。孩子们的表演极其震撼，尤其是主角从狂热到绝望的眼神变化令人不寒而栗。没有宏大的战争场面，却通过细节的堆叠让人感受到了历史碾压个体的沉重感。这是一部关于集体狂热与个人觉醒的深刻教材。</p>
+        </div>
+        <section class="detail-card">
+          <div class="section-heading simple-heading">
+            <div>
+              <h2>相关推荐</h2>
+              <p>继续发现相近题材与同类热门内容</p>
+            </div>
+          </div>
+          <div class="movie-grid related-grid">
+        <article class="movie-card compact" data-title="防震" data-region="中国大陆" data-year="2026" data-type="电影">
+          <a class="poster-link" href="./movie-0341.html" aria-label="防震">
+            <img src="./41.jpg" alt="防震" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2026</span>
+              <span>中国大陆</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0341.html">防震</a></h3>
+            <p>一场地震后，一栋新建教学楼整体垮塌，质检员发现自己当年签了字。</p>
+            <div class="tag-row"><span>地震</span><span>建筑质检</span><span>良心</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="圣诞男孩" data-region="英国" data-year="2021" data-type="电影">
+          <a class="poster-link" href="./movie-0897.html" aria-label="圣诞男孩">
+            <img src="./147.jpg" alt="圣诞男孩" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2021</span>
+              <span>英国</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0897.html">圣诞男孩</a></h3>
+            <p>孤儿尼古拉斯为救生病的继母，踏上寻找精灵王国和圣诞第一棵树的魔幻旅程。</p>
+            <div class="tag-row"><span>圣诞起源</span><span>小刺猬</span><span>勇气</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="女人我最大" data-region="中国大陆" data-year="2025" data-type="电影">
+          <a class="poster-link" href="./movie-0125.html" aria-label="女人我最大">
+            <img src="./125.jpg" alt="女人我最大" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2025</span>
+              <span>中国大陆</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0125.html">女人我最大</a></h3>
+            <p>四个被公司优化的35+女员工，联手把裁员老大爷的公司搞“上市”了。</p>
+            <div class="tag-row"><span>女性互助</span><span>职场逆袭</span><span>黑色幽默</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="少林兄弟" data-region="中国香港" data-year="1977" data-type="电影">
+          <a class="poster-link" href="./movie-0678.html" aria-label="少林兄弟">
+            <img src="./78.jpg" alt="少林兄弟" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>1977</span>
+              <span>中国香港</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0678.html">少林兄弟</a></h3>
+            <p>失散的少林俗家兄弟重逢后发现彼此分属敌对阵营，在忠义与亲情间艰难抉择。</p>
+            <div class="tag-row"><span>少林</span><span>兄弟情</span><span>复仇</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="小屁孩日记3：圣诞大惊喜" data-region="美国" data-year="2012" data-type="电影">
+          <a class="poster-link" href="./movie-0452.html" aria-label="小屁孩日记3：圣诞大惊喜">
+            <img src="./2.jpg" alt="小屁孩日记3：圣诞大惊喜" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2012</span>
+              <span>美国</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0452.html">小屁孩日记3：圣诞大惊喜</a></h3>
+            <p>格雷想给全校准备一个“史上最棒的圣诞惊喜”，结果把耶稣诞生剧演成了灾难现场。</p>
+            <div class="tag-row"><span>圣诞</span><span>校园</span><span>恶作剧</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="亚当和伊夫" data-region="法国" data-year="2025" data-type="电影">
+          <a class="poster-link" href="./movie-0736.html" aria-label="亚当和伊夫">
+            <img src="./136.jpg" alt="亚当和伊夫" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2025</span>
+              <span>法国</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0736.html">亚当和伊夫</a></h3>
+            <p>在人类灭绝后的世界，最后一个男人“亚当”克隆出了最后一个女人“伊夫”，但伊夫拒绝爱上他。</p>
+            <div class="tag-row"><span>克隆</span><span>伦理</span><span>孤独</span></div>
+          </div>
+        </article>
+
+          </div>
+        </section>
+      </article>
+      <aside class="detail-sidebar">
+        <div class="side-panel">
+          <h2>更多推荐</h2>
+          <a class="side-link" href="./movie-1546.html">
+            <img src="./46.jpg" alt="玩命快递3" loading="lazy">
+            <span>玩命快递3</span>
+          </a>
+          <a class="side-link" href="./movie-1798.html">
+            <img src="./148.jpg" alt="色香味谋杀案" loading="lazy">
+            <span>色香味谋杀案</span>
+          </a>
+          <a class="side-link" href="./movie-0013.html">
+            <img src="./13.jpg" alt="抓住彩虹的男人" loading="lazy">
+            <span>抓住彩虹的男人</span>
+          </a>
+          <a class="side-link" href="./movie-0265.html">
+            <img src="./115.jpg" alt="祭品" loading="lazy">
+            <span>祭品</span>
+          </a>
+          <a class="side-link" href="./movie-0517.html">
+            <img src="./67.jpg" alt="诸神之锤" loading="lazy">
+            <span>诸神之锤</span>
+          </a>
+          <a class="side-link" href="./movie-0769.html">
+            <img src="./19.jpg" alt="食人族残酷世界" loading="lazy">
+            <span>食人族残酷世界</span>
+          </a>
+
+        </div>
+      </aside>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <a class="footer-brand" href="./index.html">高清剧集大全</a>
+        <p>精选电视剧栏目汇集不同类型的优质剧集，包含热播、经典和高分内容，方便按分类查看。</p>
+      </div>
+      <div>
+        <h2>快捷入口</h2>
+        <a href="./categories.html">分类浏览</a>
+        <a href="./ranking.html">热门排行</a>
+      </div>
+      <div>
+        <h2>热门分类</h2>
+        <a href="./category-hot-drama.html">热播剧集</a>
+        <a href="./category-suspense-crime.html">悬疑犯罪</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

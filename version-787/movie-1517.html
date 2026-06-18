@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>康定情歌 在线观看-高清剧集大全</title>
+  <meta name="description" content="一首传世民歌背后，汉族音乐家与藏族少女跨越半个世纪的未了情缘。">
+  <meta name="keywords" content="康定情歌,悬疑犯罪,中国大陆,电影,民歌,年代,川藏,精选电视剧,热门电视剧大全,高清剧集在线播放">
+  <link rel="stylesheet" href="./assets/site.css">
+  <script src="./assets/search-index.js" defer></script>
+  <script src="./assets/app.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@1/dist/hls.min.js"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var video = document.getElementById('moviePlayer');
+    var overlay = document.querySelector('[data-play-button]');
+    var sourceUrl = "https://customer-7t103rn8rocxo5v6.cloudflarestream.com/c66b5309b3b64d15ed856810d6cc0b72/manifest/video.m3u8";
+    var started = false;
+    var hlsInstance = null;
+
+    function loadAndPlay() {
+      if (!video) {
+        return;
+      }
+      if (overlay) {
+        overlay.classList.add('hidden');
+      }
+      if (started) {
+        video.play().catch(function () {});
+        return;
+      }
+      started = true;
+      if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = sourceUrl;
+        video.play().catch(function () {});
+      } else if (window.Hls && Hls.isSupported()) {
+        hlsInstance = new Hls();
+        hlsInstance.loadSource(sourceUrl);
+        hlsInstance.attachMedia(video);
+        hlsInstance.on(Hls.Events.MANIFEST_PARSED, function () {
+          video.play().catch(function () {});
+        });
+      } else {
+        video.src = sourceUrl;
+        video.play().catch(function () {});
+      }
+    }
+
+    if (overlay) {
+      overlay.addEventListener('click', loadAndPlay);
+    }
+    if (video) {
+      video.addEventListener('click', function () {
+        if (!started) {
+          loadAndPlay();
+        }
+      });
+      video.addEventListener('ended', function () {
+        if (hlsInstance) {
+          hlsInstance.destroy();
+          hlsInstance = null;
+          started = false;
+        }
+      });
+    }
+  });
+  </script>
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html" aria-label="高清剧集大全">
+        <span class="brand-mark">剧</span>
+        <span class="brand-text">高清剧集大全</span>
+      </a>
+      <nav class="site-nav" data-site-nav>
+        <a class="nav-link" href="./index.html">首页</a>
+        <a class="nav-link" href="./categories.html">分类</a>
+        <a class="nav-link" href="./ranking.html">排行榜</a>
+      </nav>
+      <div class="global-search">
+        <input class="global-search-input" type="search" placeholder="搜索片名、地区、类型" aria-label="搜索影片" data-global-search>
+        <div class="global-search-results" data-search-results></div>
+      </div>
+      <button class="menu-toggle" type="button" aria-label="展开导航" data-menu-toggle>☰</button>
+    </div>
+  </header>
+
+  <main class="container page-shell detail-shell">
+    <nav class="breadcrumb">
+      <a href="./index.html">首页</a>
+      <span>›</span>
+      <a href="./category-suspense-crime.html">悬疑犯罪</a>
+      <span>›</span>
+      <span>康定情歌</span>
+    </nav>
+    <section class="detail-grid">
+      <article class="detail-main">
+        <div class="player-shell">
+          <video id="moviePlayer" controls playsinline preload="metadata" poster="./17.jpg"></video>
+          <button class="player-overlay" type="button" data-play-button aria-label="播放康定情歌">
+            <span>▶</span>
+          </button>
+        </div>
+        <div class="detail-card">
+          <h1>康定情歌 在线观看</h1>
+          <p class="lead-text">一首传世民歌背后，汉族音乐家与藏族少女跨越半个世纪的未了情缘。</p>
+          <div class="detail-meta">
+            <span>2025</span>
+            <span>中国大陆</span>
+            <span>电影</span>
+            <span>爱情 / 历史</span>
+          </div>
+          <div class="tag-row detail-tags"><span>民歌</span><span>年代</span><span>川藏</span></div>
+          <h2>剧情简介</h2>
+          <p>1952年，年轻音乐家李光明随部队进入康定采风，与当地能歌善舞的藏族少女卓玛相遇。两人被彼此的才华吸引，依据当地调子共同谱写了《康定情歌》。然而任务结束李光明被迫离开，约定归来却因时代动荡失联。卓玛终身未嫁，在跑马山上唱着这首歌等待。六十年后，已是满头白发的李光明带着孙女重回康定，看到的却是卓玛的坟墓和满山遍野的格桑花。</p>
+          <h2>精彩看点</h2>
+          <p>画面美到窒息，每一帧都是壁纸。两位主角的情感克制而浓烈，没有一句“我爱你”，却用一首歌承载了一生的思念。结尾的遗憾升华了主题，让经典民歌有了更具分量的注脚。</p>
+        </div>
+        <section class="detail-card">
+          <div class="section-heading simple-heading">
+            <div>
+              <h2>相关推荐</h2>
+              <p>继续发现相近题材与同类热门内容</p>
+            </div>
+          </div>
+          <div class="movie-grid related-grid">
+        <article class="movie-card compact" data-title="海之盐" data-region="意大利" data-year="2013" data-type="电影">
+          <a class="poster-link" href="./movie-0177.html" aria-label="海之盐">
+            <img src="./27.jpg" alt="海之盐" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2013</span>
+              <span>意大利</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0177.html">海之盐</a></h3>
+            <p>二战末期，西西里岛一座盐矿里，一群采盐女工在等待美军登陆时，秘密藏匿了一个逃亡的德国士兵。</p>
+            <div class="tag-row"><span>西西里</span><span>采盐</span><span>二战</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="加菲猫的幸福生活第一季" data-region="美国" data-year="2024" data-type="动画剧集">
+          <a class="poster-link" href="./movie-0440.html" aria-label="加菲猫的幸福生活第一季">
+            <img src="./140.jpg" alt="加菲猫的幸福生活第一季" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2024</span>
+              <span>美国</span>
+              <span>动画剧集</span>
+            </div>
+            <h3><a href="./movie-0440.html">加菲猫的幸福生活第一季</a></h3>
+            <p>全世界最懒的橘猫又回来了，这次它要证明——幸福生活就是千层面、午觉和欺负欧迪。</p>
+            <div class="tag-row"><span>加菲猫</span><span>猫咪</span><span>搞笑</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="四方极爱" data-region="泰国" data-year="2024" data-type="剧集">
+          <a class="poster-link" href="./movie-0293.html" aria-label="四方极爱">
+            <img src="./143.jpg" alt="四方极爱" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2024</span>
+              <span>泰国</span>
+              <span>剧集</span>
+            </div>
+            <h3><a href="./movie-0293.html">四方极爱</a></h3>
+            <p>四个音乐社团的少年，因为一首未完成的告白曲，在爱情与友情间反复横跳。</p>
+            <div class="tag-row"><span>四角恋</span><span>校园</span><span>东南亚</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="末日毁灭" data-region="美国" data-year="2026" data-type="电影">
+          <a class="poster-link" href="./movie-0361.html" aria-label="末日毁灭">
+            <img src="./61.jpg" alt="末日毁灭" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2026</span>
+              <span>美国</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0361.html">末日毁灭</a></h3>
+            <p>末日核战后，一个自私的赏金猎人在追杀目标时发现，自己要杀的人，竟然是重启人类文明的唯一“活体说明书”。</p>
+            <div class="tag-row"><span>废土</span><span>人工智能</span><span>核爆</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="人生七年3" data-region="英国" data-year="2027" data-type="剧集">
+          <a class="poster-link" href="./movie-0022.html" aria-label="人生七年3">
+            <img src="./22.jpg" alt="人生七年3" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2027</span>
+              <span>英国</span>
+              <span>剧集</span>
+            </div>
+            <h3><a href="./movie-0022.html">人生七年3</a></h3>
+            <p>时隔七年，再次追踪那十四个孩子，这次他们35岁，有人成了议员，有人进了监狱。</p>
+            <div class="tag-row"><span>成长</span><span>阶层</span><span>时间跨度</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="囚车驶向圣地" data-region="法国 / 以色列" data-year="2019" data-type="电影">
+          <a class="poster-link" href="./movie-0487.html" aria-label="囚车驶向圣地">
+            <img src="./37.jpg" alt="囚车驶向圣地" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2019</span>
+              <span>法国 / 以色列</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0487.html">囚车驶向圣地</a></h3>
+            <p>二战末期，一名纳粹军官突发奇想，让一车犹太人扮演“囚犯”，拍一部“通往圣地”的宣传片，可囚车真的驶向了圣地。</p>
+            <div class="tag-row"><span>二战</span><span>犹太</span><span>人性</span></div>
+          </div>
+        </article>
+
+          </div>
+        </section>
+      </article>
+      <aside class="detail-sidebar">
+        <div class="side-panel">
+          <h2>更多推荐</h2>
+          <a class="side-link" href="./movie-0732.html">
+            <img src="./132.jpg" alt="危险年华" loading="lazy">
+            <span>危险年华</span>
+          </a>
+          <a class="side-link" href="./movie-0984.html">
+            <img src="./84.jpg" alt="边境奇谭" loading="lazy">
+            <span>边境奇谭</span>
+          </a>
+          <a class="side-link" href="./movie-1236.html">
+            <img src="./36.jpg" alt="东海人鱼传2" loading="lazy">
+            <span>东海人鱼传2</span>
+          </a>
+          <a class="side-link" href="./movie-1488.html">
+            <img src="./138.jpg" alt="葛妮斯派特洛之风情万种" loading="lazy">
+            <span>葛妮斯派特洛之风情万种</span>
+          </a>
+          <a class="side-link" href="./movie-1740.html">
+            <img src="./90.jpg" alt="离开拉斯维加斯" loading="lazy">
+            <span>离开拉斯维加斯</span>
+          </a>
+          <a class="side-link" href="./movie-1992.html">
+            <img src="./42.jpg" alt="蚁人与黄蜂女：量子狂潮" loading="lazy">
+            <span>蚁人与黄蜂女：量子狂潮</span>
+          </a>
+
+        </div>
+      </aside>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <a class="footer-brand" href="./index.html">高清剧集大全</a>
+        <p>精选电视剧栏目汇集不同类型的优质剧集，包含热播、经典和高分内容，方便按分类查看。</p>
+      </div>
+      <div>
+        <h2>快捷入口</h2>
+        <a href="./categories.html">分类浏览</a>
+        <a href="./ranking.html">热门排行</a>
+      </div>
+      <div>
+        <h2>热门分类</h2>
+        <a href="./category-hot-drama.html">热播剧集</a>
+        <a href="./category-suspense-crime.html">悬疑犯罪</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

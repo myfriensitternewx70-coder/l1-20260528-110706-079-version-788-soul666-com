@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>鬼也笑 在线观看-高清剧集大全</title>
+  <meta name="description" content="一名倒霉的喜剧演员死后发现地狱比人间更内卷，为了不下油锅，他必须逗笑阎王爷。">
+  <meta name="keywords" content="鬼也笑,动作冒险,新加坡,电影,搞笑鬼片,冥界,黑色幽默,精选电视剧,热门电视剧大全,高清剧集在线播放">
+  <link rel="stylesheet" href="./assets/site.css">
+  <script src="./assets/search-index.js" defer></script>
+  <script src="./assets/app.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@1/dist/hls.min.js"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var video = document.getElementById('moviePlayer');
+    var overlay = document.querySelector('[data-play-button]');
+    var sourceUrl = "https://customer-7t103rn8rocxo5v6.cloudflarestream.com/af3d3f3b4940cee04efcd8ff2c9eef0a/manifest/video.m3u8";
+    var started = false;
+    var hlsInstance = null;
+
+    function loadAndPlay() {
+      if (!video) {
+        return;
+      }
+      if (overlay) {
+        overlay.classList.add('hidden');
+      }
+      if (started) {
+        video.play().catch(function () {});
+        return;
+      }
+      started = true;
+      if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = sourceUrl;
+        video.play().catch(function () {});
+      } else if (window.Hls && Hls.isSupported()) {
+        hlsInstance = new Hls();
+        hlsInstance.loadSource(sourceUrl);
+        hlsInstance.attachMedia(video);
+        hlsInstance.on(Hls.Events.MANIFEST_PARSED, function () {
+          video.play().catch(function () {});
+        });
+      } else {
+        video.src = sourceUrl;
+        video.play().catch(function () {});
+      }
+    }
+
+    if (overlay) {
+      overlay.addEventListener('click', loadAndPlay);
+    }
+    if (video) {
+      video.addEventListener('click', function () {
+        if (!started) {
+          loadAndPlay();
+        }
+      });
+      video.addEventListener('ended', function () {
+        if (hlsInstance) {
+          hlsInstance.destroy();
+          hlsInstance = null;
+          started = false;
+        }
+      });
+    }
+  });
+  </script>
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html" aria-label="高清剧集大全">
+        <span class="brand-mark">剧</span>
+        <span class="brand-text">高清剧集大全</span>
+      </a>
+      <nav class="site-nav" data-site-nav>
+        <a class="nav-link" href="./index.html">首页</a>
+        <a class="nav-link" href="./categories.html">分类</a>
+        <a class="nav-link" href="./ranking.html">排行榜</a>
+      </nav>
+      <div class="global-search">
+        <input class="global-search-input" type="search" placeholder="搜索片名、地区、类型" aria-label="搜索影片" data-global-search>
+        <div class="global-search-results" data-search-results></div>
+      </div>
+      <button class="menu-toggle" type="button" aria-label="展开导航" data-menu-toggle>☰</button>
+    </div>
+  </header>
+
+  <main class="container page-shell detail-shell">
+    <nav class="breadcrumb">
+      <a href="./index.html">首页</a>
+      <span>›</span>
+      <a href="./category-action-adventure.html">动作冒险</a>
+      <span>›</span>
+      <span>鬼也笑</span>
+    </nav>
+    <section class="detail-grid">
+      <article class="detail-main">
+        <div class="player-shell">
+          <video id="moviePlayer" controls playsinline preload="metadata" poster="./144.jpg"></video>
+          <button class="player-overlay" type="button" data-play-button aria-label="播放鬼也笑">
+            <span>▶</span>
+          </button>
+        </div>
+        <div class="detail-card">
+          <h1>鬼也笑 在线观看</h1>
+          <p class="lead-text">一名倒霉的喜剧演员死后发现地狱比人间更内卷，为了不下油锅，他必须逗笑阎王爷。</p>
+          <div class="detail-meta">
+            <span>2024</span>
+            <span>新加坡</span>
+            <span>电影</span>
+            <span>喜剧, 恐怖</span>
+          </div>
+          <div class="tag-row detail-tags"><span>搞笑鬼片</span><span>冥界</span><span>黑色幽默</span></div>
+          <h2>剧情简介</h2>
+          <p>不得志的单口喜剧演员阿强意外触电身亡，来到地府却发现这里也搞KPI和末位淘汰。判官告诉他，根据生前“贡献值”，他本应下十八层油锅，但地府新推出了“才艺减刑”计划。为了逃脱酷刑，阿强必须在七天之内，让因为处理太多冤案而患上重度抑郁症的阎王爷笑出声。他使出浑身解数，把奈何桥改造成脱口秀舞台，拉着牛头马面演小品，甚至给阎王爷科普“互联网黑话”。眼看就要成功，阿强却发现，阎王爷的抑郁是因为人间某个未了的案子，而这个案子正是导致他死亡的真相。</p>
+          <h2>精彩看点</h2>
+          <p>新加坡鬼片一贯的混搭风格，这次玩得很大胆。用打工人的辛酸解构地府，各种社会梗密集得应接不暇。前半段笑到肚子疼，最后揭晓真相时又莫名心酸。节奏明快，创意加分，适合所有被现实压得喘不过气的社畜观看。</p>
+        </div>
+        <section class="detail-card">
+          <div class="section-heading simple-heading">
+            <div>
+              <h2>相关推荐</h2>
+              <p>继续发现相近题材与同类热门内容</p>
+            </div>
+          </div>
+          <div class="movie-grid related-grid">
+        <article class="movie-card compact" data-title="巨人兽" data-region="日本 / 美国" data-year="2026" data-type="电影">
+          <a class="poster-link" href="./movie-0056.html" aria-label="巨人兽">
+            <img src="./56.jpg" alt="巨人兽" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2026</span>
+              <span>日本 / 美国</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0056.html">巨人兽</a></h3>
+            <p>福岛核电站泄露十年后，一只以核废料为食的百米巨兽觉醒，它的目标竟是切尔诺贝利。</p>
+            <div class="tag-row"><span>怪兽</span><span>基因工程</span><span>灾难</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="圣诞男孩" data-region="英国" data-year="2021" data-type="电影">
+          <a class="poster-link" href="./movie-0897.html" aria-label="圣诞男孩">
+            <img src="./147.jpg" alt="圣诞男孩" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2021</span>
+              <span>英国</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0897.html">圣诞男孩</a></h3>
+            <p>孤儿尼古拉斯为救生病的继母，踏上寻找精灵王国和圣诞第一棵树的魔幻旅程。</p>
+            <div class="tag-row"><span>圣诞起源</span><span>小刺猬</span><span>勇气</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="缉盗2025" data-region="中国大陆" data-year="2025" data-type="电视剧">
+          <a class="poster-link" href="./movie-0345.html" aria-label="缉盗2025">
+            <img src="./45.jpg" alt="缉盗2025" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2025</span>
+              <span>中国大陆</span>
+              <span>电视剧</span>
+            </div>
+            <h3><a href="./movie-0345.html">缉盗2025</a></h3>
+            <p>2025年，一伙高科技盗贼专偷国家一级文物，警方成立“猎鹰小组”跨省缉盗。</p>
+            <div class="tag-row"><span>盗墓</span><span>高科技</span><span>警匪</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="五十公里桃花坞4" data-region="中国大陆" data-year="2025" data-type="剧集">
+          <a class="poster-link" href="./movie-0127.html" aria-label="五十公里桃花坞4">
+            <img src="./127.jpg" alt="五十公里桃花坞4" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2025</span>
+              <span>中国大陆</span>
+              <span>剧集</span>
+            </div>
+            <h3><a href="./movie-0127.html">五十公里桃花坞4</a></h3>
+            <p>一群因城市改造被迫搬离老胡同的邻居，集体入驻五十公里外的生态社区，却把城市矛盾也带了过去。</p>
+            <div class="tag-row"><span>城市</span><span>社区</span><span>群像</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="春燕展翅" data-region="中国大陆" data-year="2024" data-type="电影">
+          <a class="poster-link" href="./movie-0981.html" aria-label="春燕展翅">
+            <img src="./81.jpg" alt="春燕展翅" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2024</span>
+              <span>中国大陆</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0981.html">春燕展翅</a></h3>
+            <p>一个网瘾少女被父亲“骗”进即将倒闭的戏曲学校，却用直播拯救了这门古老的艺术。</p>
+            <div class="tag-row"><span>戏曲</span><span>励志</span><span>师徒</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-title="地下巧克力" data-region="英国" data-year="2014" data-type="电影">
+          <a class="poster-link" href="./movie-0765.html" aria-label="地下巧克力">
+            <img src="./15.jpg" alt="地下巧克力" loading="lazy">
+            <span class="poster-shade"></span>
+            <span class="poster-play">▶</span>
+            
+          </a>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>2014</span>
+              <span>英国</span>
+              <span>电影</span>
+            </div>
+            <h3><a href="./movie-0765.html">地下巧克力</a></h3>
+            <p>兄妹俩在伦敦地铁废弃隧道中发现一座全由巧克力建成的神秘工厂，而厂长是一只会说人话的獾。</p>
+            <div class="tag-row"><span>巧克力工厂</span><span>地下社会</span><span>秘密配方</span></div>
+          </div>
+        </article>
+
+          </div>
+        </section>
+      </article>
+      <aside class="detail-sidebar">
+        <div class="side-panel">
+          <h2>更多推荐</h2>
+          <a class="side-link" href="./movie-0488.html">
+            <img src="./38.jpg" alt="绳文人到来" loading="lazy">
+            <span>绳文人到来</span>
+          </a>
+          <a class="side-link" href="./movie-0740.html">
+            <img src="./140.jpg" alt="深夜加油站遇见大逃杀" loading="lazy">
+            <span>深夜加油站遇见大逃杀</span>
+          </a>
+          <a class="side-link" href="./movie-0992.html">
+            <img src="./92.jpg" alt="好莱坞诈骗女王" loading="lazy">
+            <span>好莱坞诈骗女王</span>
+          </a>
+          <a class="side-link" href="./movie-1244.html">
+            <img src="./44.jpg" alt="非常青春期" loading="lazy">
+            <span>非常青春期</span>
+          </a>
+          <a class="side-link" href="./movie-1496.html">
+            <img src="./146.jpg" alt="杨光的快乐生活3" loading="lazy">
+            <span>杨光的快乐生活3</span>
+          </a>
+          <a class="side-link" href="./movie-1748.html">
+            <img src="./98.jpg" alt="奥斯卡的美国梦" loading="lazy">
+            <span>奥斯卡的美国梦</span>
+          </a>
+
+        </div>
+      </aside>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <a class="footer-brand" href="./index.html">高清剧集大全</a>
+        <p>精选电视剧栏目汇集不同类型的优质剧集，包含热播、经典和高分内容，方便按分类查看。</p>
+      </div>
+      <div>
+        <h2>快捷入口</h2>
+        <a href="./categories.html">分类浏览</a>
+        <a href="./ranking.html">热门排行</a>
+      </div>
+      <div>
+        <h2>热门分类</h2>
+        <a href="./category-hot-drama.html">热播剧集</a>
+        <a href="./category-suspense-crime.html">悬疑犯罪</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
